@@ -1,0 +1,9 @@
+<h1> Welcome to Booklist </h1>
+<% @books.each do |book| %>
+<ul>
+  <li>
+    <b>Title: </b><%= book.title%><br>
+    <b>Author: </b><%= book.author%>
+  </li>
+</ul>
+<%end%>
