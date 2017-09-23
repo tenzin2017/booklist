@@ -1,5 +1,6 @@
 This is plain text format of Booklist
 <% @books.each do |book| %>
-<%= book.title %>
-<%= book.author %>
+Title:<%= book.title %>
+Author:<%= book.author %>
+Already read: <%= book.already_read%>
 <%end%>
